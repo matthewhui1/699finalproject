@@ -23,7 +23,7 @@ I performed a hyperparameter search using randomized search. The hyperparameters
 # Final Model
 - RandomForestClassifier
 - class weight: balanced
-- max depth: 20
+- max depth: 200
 - min samples leaf: 3
 - min samples split: 5
 - number of estimators: 200
