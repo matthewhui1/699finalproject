@@ -12,13 +12,13 @@ This dataset contains information on various candidates who signed up for a comp
 The dataset contains missing values so I used a simple imputer (impute median values for continuous variables and impute 'unknown' for discrete variables). I also used both ordinal encoding and one hot encoding on the data.
 
 # Algorithms
-I performed a hyperparameter search using randomized search. The hyperparameters I tried tuning are:
+I performed a hyperparameter search using randomized search on two algorithms: Random Forest and Extra Trees Classifier. The hyperparameters I tried tuning are:
 - Criterion: The two criterion are two different functions that determine how good a split is.
 - Max Depth: Limits the number of splits each tree can have (prevents overfitting)
 - Min Samples Split/Min Samples Leaf: Have similar uses: once a leaf node is small enough stop fitting (prevents overfitting)
 - Max Features: The amount of features the tree can consider (by taking a subset it prevents all trees to look the same)
 - Class Weight: Takes into account the proportion of the target (deals with the slight data imbalance problem)
-- N Estimators: Number of trees produced gives better generalization to the model
+- N Estimators: Number of trees produced, gives better generalization to the model
 
 # Final Model
 - RandomForestClassifier
@@ -29,7 +29,7 @@ I performed a hyperparameter search using randomized search. The hyperparameters
 - number of estimators: 200
 
 # Evaluation Metrics
-Accuracy: 79% | Precision: 56% | Recall: 75%
+Accuracy: 79% | Precision: 56% | Recall: 74%
 
 # Conclusion
 Model functionality:
