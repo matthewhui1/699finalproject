@@ -1,6 +1,6 @@
 # 699 Final Project
 
-Hello, my name is Matthew Hui and I am a current Master's student at the University of San Francisco studying data science. This repository is for my Machine Learning Lab class where we explored the vaarious functionalities of scikit-learn and how to use it in the data science life cycle.
+Hello, my name is Matthew Hui and I am a current Master's student at the University of San Francisco studying data science. This repository is for my Machine Learning Lab class where we explored the various functionalities of scikit-learn and how to use it in the data science life cycle.
 
 - You can find a link to the [data here](https://www.kaggle.com/arashnic/hr-analytics-job-change-of-data-scientists)
 - You can find a link to my code in [DeepNote here](https://deepnote.com/project/3d577cd0-4e74-4b55-beaf-ba4ec1241d48#%2Fnotebook.ipynb) or download it from the repository.
@@ -38,7 +38,7 @@ Model functionality:
 
 Next steps:
 - create more features
-- sacrificce some recall for better precision
+- sacrifice some recall for better precision
 
 
 
