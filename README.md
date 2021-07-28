@@ -1,4 +1,4 @@
-# 699 Final Project
+# Predicting Job Change of Data Scientists
 
 Hello, my name is Matthew Hui and I am a current Master's student at the University of San Francisco studying data science. This repository is for my Machine Learning Lab class where we explored the various functionalities of scikit-learn and how to use it in the data science life cycle.
 
